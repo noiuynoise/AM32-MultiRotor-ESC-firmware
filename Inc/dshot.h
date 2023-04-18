@@ -10,13 +10,8 @@
 #ifndef INC_DSHOT_H_
 #define INC_DSHOT_H_
 
-
-
-
-
 void computeDshotDMA(void);
 void make_dshot_package();
-
 
 extern char EDT_ARM_ENABLE;
 extern char EDT_ARMED;
@@ -30,7 +25,6 @@ extern char buffer_divider;
 extern uint8_t last_dshot_command;
 extern uint16_t commutation_interval;
 
-//int e_com_time;
-
+// int e_com_time;
 
 #endif /* INC_DSHOT_H_ */
